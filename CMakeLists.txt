@@ -3,4 +3,4 @@ project(problems)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(problems main.cpp)
+add_executable(problem ninechapter/search_2d_matrix.cpp)
