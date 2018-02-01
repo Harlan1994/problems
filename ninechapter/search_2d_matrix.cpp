@@ -6,7 +6,6 @@
 using namespace std;
 
 /**
- *
  * 问题描述：
  * 在一个 m*n 整数矩阵中找到指定值 target。
  * 这个整数矩阵有如下性质：
@@ -26,7 +25,7 @@ using namespace std;
  *
  * @param matrix
  * @param target to be found.
- * @return
+ * @return true if found, false otherwise.
  */
 bool search(int matrix[][5], int target, int col, int row) {
     int i = col - 1;
